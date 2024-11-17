@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLAGS</title>
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+
+<body onload="balance()">
+
+    <img src="LOGO.png" width="90px" height="50px">
+    <div id="playbd"><br/>
+        <span id="result">PLACE YOUR BET NOW</span><br/><br/>
+    <table>
+        <tr>
+            <th>
+                <span id="flag"><img src="redflag1.gif" height="150px" width="190
+                    px"></span>
+                <div id="red1">
+                
+                    <span id="red"> 
+                        </span>RED<br/>
+                    <span id="player">Ready?</span></div></th>
+
+                    <th>
+                        <span> <img src="greenflag1.gif" height="150px" width="190
+                            px"></span>
+                        <div id="green1">
+                            
+                            <span id="green">GREEN</span><br/>
+                            <span id = "opponent">Ready?</span><br/></div>
+                    </th>
+        </tr>
+        
+    </table>
+        
+
+       
+
+    <br>
+
+    <P>YOUR CHOICE</P>
+    <span id="choice">RED,GREEN OR DRAW?</span><br><br>
+
+    <button id = "mybuttonred" onclick="red()">RED x2</button> OR 
+    <button id = "mybuttongreen" onclick="GREEN()">GREEN x2</button><br/><br/>
+    <button id = "mybuttondraw" onclick="DRAW()">DRAW x5</button><br/><br/>
+    <button id = "mybutton" onclick="END()">PULL OUT</button>
+
+    <input type="number" id="bet" placeholder="PLACE YOUR BET HERE">
+    <button id = "mybuttonplus" onclick="plus()">+</button>
+    <button id = "mybuttonminus" onclick="minus()">-</button>
+    <br/><br/>
+    
+    <button id = "mybutton" onclick="five()">5.00 SZL</button>
+    <button id = "mybutton" onclick="ten()">10.00 SZL</button><br><br>
+    <button id = "mybutton" onclick="twenty()">20.00 SZL</button>
+    <button id = "mybutton" onclick="thirty()">30.00 SZL</button><br>
+    <span>BALANCE : <span id="bal"></span> SZL</span><br><br>
+    <span id="nofunds"></span>
+    <span id="count"></span>
+
+    </div>
+
+    
+    <script src="script3.js"></script>
+    
+</body>
+</html>
